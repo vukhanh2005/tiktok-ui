@@ -7,16 +7,21 @@
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.2",
     "@testing-library/user-event": "^13.5.0",
+    "customize-cra": "^1.0.0",
+    "normalize.css": "^8.0.1",
     "react": "^19.2.4",
+    "react-app-rewired": "^2.2.1",
     "react-dom": "^19.2.4",
+    "react-router-dom": "^7.13.0",
     "react-scripts": "5.0.1",
+    "sass": "^1.97.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject"
   },
   "eslintConfig": {
     "extends": [
@@ -35,5 +40,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "babel-plugin-module-resolver": "^5.0.2"
   }
 }
