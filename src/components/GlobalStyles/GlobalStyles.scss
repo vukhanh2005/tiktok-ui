@@ -1,7 +1,12 @@
 @import 'normalize.css';
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
-
+:root{
+    --default-layout-header-height: 60px;
+    --default-layout-width: 1150px;
+}
 *{
+    padding: 0px;
+    margin: 0px;
     box-sizing: border-box;
 }
 
@@ -9,6 +14,5 @@ body{
     font-family: "Shadows Into Light", cursive;
     font-weight: 400;
     font-style: normal;
-
-    line-height: 1.5px;
+    min-height: 1000px;
 }
