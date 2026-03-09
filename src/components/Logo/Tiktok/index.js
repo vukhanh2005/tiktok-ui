@@ -1,7 +1,7 @@
 function LogoTikTok() {
 return (
     <b>
-        <h1>TiK ToK</h1>
+        <h1>Tik Tok</h1>
     </b>
   )
 }

@@ -12,15 +12,12 @@ function App() {
           publicRoutes.map((route, index)=>{
             const Layout = route.layout===undefined?DefaultLayout:(route.layout===null?Fragment:route.layout);
             const Page = route.component;
-            return <Route
-
+            return <Route key={index}
               path={route.path} element={
                 <Layout>
                   <Page/>
                 </Layout>
               }>
-
-
             </Route>
           })
         }

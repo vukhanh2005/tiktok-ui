@@ -29,10 +29,16 @@
 .search, .search-result{
     width: 400px;
 }
+
 .search-result{
     padding-top: 10px;
     background-color: rgba(255, 255, 255, 0.83);
     border-radius: 20px;
+
+    &>div{
+        max-height: 400px;
+        overflow-y: scroll;
+    }
 }
 .search-input-wrapper{
     display: flex;
@@ -85,4 +91,14 @@
     display: flex;
     align-items: center;
     padding: 20px;
+    border: 2px solid black;
+}
+.more-menus{
+    margin-left: 10px;
+    &:hover{
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+}
+.menu-items{
+    border: 2px solid black;
 }

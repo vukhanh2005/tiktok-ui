@@ -1,0 +1,45 @@
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9px, 16px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    &:hover{
+        cursor: pointer;
+    }
+    text-decoration: none;
+}
+.primary{
+    width: 76px;
+    color: #fff;
+    background-color: var(--red);
+    &:hover{
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+}
+.outline{
+    width: 76px;
+    color: black;
+    background-color: rgba(152, 42, 42, 0.1);
+    border: 2px black solid;
+    &:hover{
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+}
+.wrapper + .wrapper{
+    margin-left: 10px;
+}
+.upload{
+    color: #000;
+    text-decoration: underline;
+}
+.disabled{
+    color: white;
+    background-color: black;
+    &:hover{
+        background-color: black;
+    }
+}

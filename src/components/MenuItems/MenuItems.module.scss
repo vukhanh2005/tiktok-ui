@@ -1,0 +1,17 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.item{
+    display: flex;
+    padding: 10px;
+    &>p{
+        margin-left: 10px;
+    }
+    &>span{
+        border: 2px black solid;
+    }
+    &:hover{
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+}
